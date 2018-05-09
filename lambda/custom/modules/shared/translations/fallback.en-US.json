@@ -1,0 +1,25 @@
+{
+    "en-US": {
+        "translation": {
+            "FallbackLists": {
+                "speechList": [
+                    "You should never get this speech fallback. Make sure you have a speech or speechList defined for this intent."
+                ],
+                "promptList": [
+                    "What would you like to do?"
+                ],
+                "repromptList": [
+                    "You can ask me to repeat or say help to get a list of options."
+                ],
+                "displayHintList": [
+                    "help",
+                    "repeat",
+                    "goodbye"
+                ],
+                "displayTitleList": [
+                    ""
+                ]
+            }
+        }
+    }
+}

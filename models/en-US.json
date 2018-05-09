@@ -1,0 +1,151 @@
+{
+    "interactionModel": {
+      "languageModel": {
+        "invocationName": "academic calendar",
+        "intents": [
+          {
+            "name": "AMAZON.CancelIntent",
+            "samples": []
+          },
+          {
+            "name": "AMAZON.HelpIntent",
+            "samples": []
+          },
+          {
+            "name": "AMAZON.MoreIntent",
+            "samples": []
+          },
+          {
+            "name": "AMAZON.NavigateHomeIntent",
+            "samples": []
+          },
+          {
+            "name": "AMAZON.NavigateSettingsIntent",
+            "samples": []
+          },
+          {
+            "name": "AMAZON.NextIntent",
+            "samples": []
+          },
+          {
+            "name": "AMAZON.PageDownIntent",
+            "samples": []
+          },
+          {
+            "name": "AMAZON.PageUpIntent",
+            "samples": []
+          },
+          {
+            "name": "AMAZON.PreviousIntent",
+            "samples": []
+          },
+          {
+            "name": "AMAZON.ScrollDownIntent",
+            "samples": []
+          },
+          {
+            "name": "AMAZON.ScrollLeftIntent",
+            "samples": []
+          },
+          {
+            "name": "AMAZON.ScrollRightIntent",
+            "samples": []
+          },
+          {
+            "name": "AMAZON.ScrollUpIntent",
+            "samples": []
+          },
+          {
+            "name": "AMAZON.StopIntent",
+            "samples": [
+              "stop",
+              "off",
+              "end",
+              "goodbye",
+              "bye",
+              "later",
+              "see ya",
+              "talk to you later",
+              "talk to ya later",
+              "see you later"
+            ]
+          },
+          {
+            "name": "VersionIntent",
+            "samples": [
+              "what's the version",
+              "the version",
+              "tell me the version",
+              "what is the version",
+              "what's the version number",
+              "skill version",
+              "the skill version",
+              "app version",
+              "what is the skill version",
+              "what is the app version",
+              "version number"
+            ]
+          },
+          {
+            "name": "SampleNoDisplayIntent",
+            "samples": [
+              "sample no display",
+              "sample without a display",
+              "no display sample",
+              "to show sample no display",
+              "to show sample without a display",
+              "to show no display sample"
+            ]
+          },
+          {
+            "name": "AMAZON.RepeatIntent",
+            "samples": []
+          },
+          {
+            "name": "AMAZON.YesIntent"
+          },
+          {
+            "name": "AMAZON.NoIntent"
+          },
+          {
+            "name": "searchIntent",
+            "slots": [
+              {
+                "name": "date",
+                "type": "AMAZON.DATE"
+              }
+            ],
+            "samples": [
+              "get me stuff happening {date}",
+              "get me events for {date}",
+              "whats on {date}",
+              "{date}",
+              "for {date}",
+              "whats happening {date}",
+              "tell me whats happening {date}",
+              "what is happening {date}",
+              "what is happening on {date}",
+              "what events are happening {date}",
+              "what events are happening on {date}"
+            ]
+          },
+          {
+            "name": "eventIntent",
+            "slots": [
+              {
+                "name": "number",
+                "type": "AMAZON.NUMBER"
+              }
+            ],
+            "samples": [
+              "tell me about event {number}",
+              "whats event {number}",
+              "number {number}",
+              "{number}"
+            ]
+          }
+        ]
+      }
+    }
+  }
+  

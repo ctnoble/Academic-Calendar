@@ -1,0 +1,7 @@
+{
+    "env": "local",
+    "region": "us-east-1",
+    "dynamoDBTableName": "",
+    "s3BucketName": "voicexp-skill-template-nodejs-multimodal",
+    "debugLocal": true
+}

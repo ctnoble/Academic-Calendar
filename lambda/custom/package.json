@@ -1,0 +1,31 @@
+{
+  "name": "skill-template-nodejs-multimodal",
+  "version": "1.0.0",
+  "description": "Multimodal skill template",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "converter": "node converter.js"
+  },
+  "keywords": [
+    "alexa",
+    "skill",
+    "multimodel",
+    "echo",
+    "show",
+    "spot"
+  ],
+  "author": "VoiceXP Inc.",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "alexa-sdk": "^1.0.25",
+    "aws-sdk": "^2.224.1",
+    "is-lambda": "^1.0.1",
+    "locale-code": "^2.0.1",
+    "lodash": "^4.17.5",
+    "node-json2html": "^1.2.0",
+    "splunknova": "^1.0.4"
+  },
+  "devDependencies": {
+    "bespoken-tools": "^1.2.8"
+  }
+}

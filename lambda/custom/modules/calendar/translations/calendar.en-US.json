@@ -1,0 +1,314 @@
+{
+    "en-US": {
+        "translation": {
+            "PrivateCalendarNoResults": {
+                "speechList": [
+                    "There are currently no events on {{date}}.",
+                    "There are no events scheduled for {{date}}.",
+                    "I found {{event}} events on {{date}}.",
+                    "There are {{event}}.",
+                    "{{event}}."
+                ],
+                "promptList": [
+                    "If you'd like you can ask me for a list of upcoming events",
+                    "If you'd like you can also ask me for the next event"
+                ],
+                "repromptList": [
+                    "You can ask me to repeat or say help to get a list of options."
+                ],
+                "displayHint": "",
+                "displayTitle": "Events on '{{date}}'"
+            },
+            "PrivateCalendarOneResults": {
+                "speechList": [
+                    "There is {{event}} event on {{date}}.",
+                    "I found {{event}} on {{date}}.",
+                    "There is {{event}}.",
+                    "{{event}}."
+                ],
+                "promptList": [
+                    "Would you like to know more?, I can tell you the number of events on a given date"
+                ],
+                "repromptList": [
+                    "You can ask me to repeat or say help to get a list of options."
+                ],
+                "displayHint": "",
+                "displayTitle": "Events on '{{date}}'"
+            },
+            "PrivateCalendarMultiResults": {
+                "speechList": [
+                    "There are currently {{event}} events on {{date}}.",
+                    "I found {{event}} events on {{date}}.",
+                    "There are {{event}}.",
+                    "{{event}}."
+                ],
+                "promptList": [
+                    "Would you like to know more?, I can tell you the number of events on a given date"
+                ],
+                "repromptList": [
+                    "You can ask me to repeat or say help to get a list of options."
+                ],
+                "displayHint": "",
+                "displayTitle": "Events on '{{date}}'"
+            },
+            "renderCalendarScreen": {
+                "text1": "event(s) on"
+            },
+            "welcomeMessage": {
+                "speechList":[
+                    "You can ask for the events today. Search for events by date. or say help. What would you like? "
+                ],
+                "promptList": [
+                    "I can tell you a list of events that are on a certain date. Which do you want?",
+                    "I can tell you those events that will be on a certain date. Which do you want?",
+                    "What would you like me to do?"
+                ],
+                "repromptList": [
+                    "You can ask me to repeat or say help to get a list of options."
+                ],
+                "displayHint": "",
+                "displayTitle": "events on '{{date}}'"
+            },
+            "eventNumberMoreInfoText": {
+                "speechList":[
+                    "You can say the event number for more information."
+                ],
+                "promptList": [
+                    "I can tell you a list of events that are on a certain date. Which do you want?",
+                    "I can tell you those events that will be on a certain date. Which do you want?",
+                    "What would you like me to do?"
+                ],
+                "repromptList": [
+                    "You can ask me to repeat or say help to get a list of options."
+                ],
+                "displayHint": "",
+                "displayTitle": "events on '{{date}}'"
+            },
+            "helpMessage": {
+                "speechList":[
+                    "Here are some things you can say: Get me events for today. Tell me whats happening on the 18th of July. What events are happening next week? Get me stuff happening tomorrow. "
+                ],
+                "promptList": [
+                    "I can tell you a list of events that are on a certain date. Which do you want?",
+                    "I can tell you those events that will be on a certain date. Which do you want?",
+                    "What would you like me to do?"
+                ],
+                "repromptList": [
+                    "You can ask me to repeat or say help to get a list of options."
+                ],
+                "displayHint": "",
+                "displayTitle": "events on '{{date}}'"
+            },
+            "descriptionStateHelperMessage": {
+                "speechList":[
+                    "Here are some things you can say: Tell me about event one"
+                ],
+                "promptList": [
+                    "I can tell you a list of events that are on a certain date. Which do you want?",
+                    "I can tell you those events that will be on a certain date. Which do you want?",
+                    "What would you like me to do?"
+                ],
+                "repromptList": [
+                    "You can ask me to repeat or say help to get a list of options."
+                ],
+                "displayHint": "",
+                "displayTitle": "events on '{{date}}'"
+            },
+            "NoDataMessage": {
+                "speechList":[
+                    "Sorry there aren't any events scheduled. Would you like to search again?"
+                ],
+                "promptList": [
+                    "I can tell you a list of events that are on a certain date. Which do you want?",
+                    "I can tell you those events that will be on a certain date. Which do you want?",
+                    "What would you like me to do?"
+                ],
+                "repromptList": [
+                    "You can ask me to repeat or say help to get a list of options."
+                ],
+                "displayHint": "",
+                "displayTitle": "events on '{{date}}'"
+            },
+            "shutdownMessage": {
+                "speechList":[
+                    "Ok see you again soon."
+                ],
+                "promptList": [
+                    "I can tell you a list of events that are on a certain date. Which do you want?",
+                    "I can tell you those events that will be on a certain date. Which do you want?",
+                    "What would you like me to do?"
+                ],
+                "repromptList": [
+                    "You can ask me to repeat or say help to get a list of options."
+                ],
+                "displayHint": "",
+                "displayTitle": "events on '{{date}}'"
+            },
+            "oneEventMessage": {
+                "speechList":[
+                    "There is 1 event."
+                ],
+                "promptList": [
+                    "I can tell you a list of events that are on a certain date. Which do you want?",
+                    "I can tell you those events that will be on a certain date. Which do you want?",
+                    "What would you like me to do?"
+                ],
+                "repromptList": [
+                    "You can ask me to repeat or say help to get a list of options."
+                ],
+                "displayHint": "",
+                "displayTitle": "events on '{{date}}'"
+            },
+            "multipleEventMessage": {
+                "speechList":[
+                    "There are %d events."
+                ],
+                "promptList": [
+                    "I can tell you a list of events that are on a certain date. Which do you want?",
+                    "I can tell you those events that will be on a certain date. Which do you want?",
+                    "What would you like me to do?"
+                ],
+                "repromptList": [
+                    "You can ask me to repeat or say help to get a list of options."
+                ],
+                "displayHint": "",
+                "displayTitle": "events on '{{date}}'"
+            },
+            "scheduledEventMessage": {
+                "speechList":[
+                    "scheduled for this time frame. I've sent the details to your Alexa app: "
+                ],
+                "promptList": [
+                    "I can tell you a list of events that are on a certain date. Which do you want?",
+                    "I can tell you those events that will be on a certain date. Which do you want?",
+                    "What would you like me to do?"
+                ],
+                "repromptList": [
+                    "You can ask me to repeat or say help to get a list of options."
+                ],
+                "displayHint": "",
+                "displayTitle": "events on '{{date}}'"
+            },
+            "firstThreeMessage": {
+                "speechList":[
+                    "Here are the first %d. "
+                ],
+                "promptList": [
+                    "I can tell you a list of events that are on a certain date. Which do you want?",
+                    "I can tell you those events that will be on a certain date. Which do you want?",
+                    "What would you like me to do?"
+                ],
+                "repromptList": [
+                    "You can ask me to repeat or say help to get a list of options."
+                ],
+                "displayHint": "",
+                "displayTitle": "events on '{{date}}'"
+            },
+            "eventSummary": {
+                "speechList":[
+                    "The %s event is, %s at %s on %s "
+                ],
+                "promptList": [
+                    "I can tell you a list of events that are on a certain date. Which do you want?",
+                    "I can tell you those events that will be on a certain date. Which do you want?",
+                    "What would you like me to do?"
+                ],
+                "repromptList": [
+                    "You can ask me to repeat or say help to get a list of options."
+                ],
+                "displayHint": "",
+                "displayTitle": "events on '{{date}}'"
+            },
+            "cardContentSummary": {
+                "speechList":[
+                    "%s at %s on %s "
+                ],
+                "promptList": [
+                    "I can tell you a list of events that are on a certain date. Which do you want?",
+                    "I can tell you those events that will be on a certain date. Which do you want?",
+                    "What would you like me to do?"
+                ],
+                "repromptList": [
+                    "You can ask me to repeat or say help to get a list of options."
+                ],
+                "displayHint": "",
+                "displayTitle": "events on '{{date}}'"
+            },
+            "haveEventsReprompt": {
+                "speechList":[
+                    "Give me an event number to hear more information."
+                ],
+                "promptList": [
+                    "I can tell you a list of events that are on a certain date. Which do you want?",
+                    "I can tell you those events that will be on a certain date. Which do you want?",
+                    "What would you like me to do?"
+                ],
+                "repromptList": [
+                    "You can ask me to repeat or say help to get a list of options."
+                ],
+                "displayHint": "",
+                "displayTitle": "events on '{{date}}'"
+            },
+            "dateOutOfRange": {
+                "speechList":[
+                    "Date is out of range please choose another date"
+                ],
+                "promptList": [
+                    "I can tell you a list of events that are on a certain date. Which do you want?",
+                    "I can tell you those events that will be on a certain date. Which do you want?",
+                    "What would you like me to do?"
+                ],
+                "repromptList": [
+                    "You can ask me to repeat or say help to get a list of options."
+                ],
+                "displayHint": "",
+                "displayTitle": "events on '{{date}}'"
+            },
+            "eventOutOfRange": {
+                "speechList":[
+                    "Event number is out of range please choose another event"
+                ],
+                "promptList": [
+                    "I can tell you a list of events that are on a certain date. Which do you want?",
+                    "I can tell you those events that will be on a certain date. Which do you want?",
+                    "What would you like me to do?"
+                ],
+                "repromptList": [
+                    "You can ask me to repeat or say help to get a list of options."
+                ],
+                "displayHint": "",
+                "displayTitle": "events on '{{date}}'"
+            },
+            "descriptionMessage": {
+                "speechList":[
+                    "Here's the description "
+                ],
+                "promptList": [
+                    "I can tell you a list of events that are on a certain date. Which do you want?",
+                    "I can tell you those events that will be on a certain date. Which do you want?",
+                    "What would you like me to do?"
+                ],
+                "repromptList": [
+                    "You can ask me to repeat or say help to get a list of options."
+                ],
+                "displayHint": "",
+                "displayTitle": "events on '{{date}}'"
+            },
+            "killSkillMessage": {
+                "speechList":[
+                    "Ok, great, see you next time."
+                ],
+                "promptList": [
+                    "I can tell you a list of events that are on a certain date. Which do you want?",
+                    "I can tell you those events that will be on a certain date. Which do you want?",
+                    "What would you like me to do?"
+                ],
+                "repromptList": [
+                    "You can ask me to repeat or say help to get a list of options."
+                ],
+                "displayHint": "",
+                "displayTitle": "events on '{{date}}'"
+            }
+        }
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "en-US": {
+        "translation": {
+            "PrivateWelcomeFirst": {
+                "speech": "Welcome to the multi modal skill template sample. This is a great place for a longer intro that will be said only the first time you enter the skill.",
+                "prompt": "I can show you various body or list template sample screens such as 'body template 1'. What do you want me to do?",
+                "reprompt": "To hear the intro again, say 'repeat' or say 'help'.",
+                "displayHint": "show body template 1"
+            },
+            "PrivateWelcomeBack": {
+                "speechList": [
+                    "Welcome back to multi modal skill template sample.",
+                    "Welcome back.",
+                    "Good to see you again."
+                ],
+                "promptList": [
+                    "I can show you various body or list template sample screens such as 'body template 1'. What do you want me to do?",
+                    "What would you like me to do?"
+                ],
+                "repromptList": [
+                    "You can ask me to repeat or say help to get a list of options."
+                ],
+                "displayHintList": [
+                    "show body template 1",
+                    "show body template 2",
+                    "show body template 3",
+                    "show body template 6",
+                    "show body template 7",
+                    "show list template 1",
+                    "show list template 2"
+                ]
+            },
+            "PrivateMissingTranslationKey": {
+                "speech": "The translation key was not found. Check your intent and the translations dot jason file.",
+                "prompt": "Can you please repeat or ask something else?",
+                "reprompt": "For a list of options, say 'help'. To end, say: goodbye."
+            },
+            "AMAZONHelpIntent": {
+                "speech": "This is for general help. List the commands here. You can say 'repeat' or 'help' and when you are done, say 'goodbye'. ",
+                "prompt": " What would you like to do? ",
+                "reprompt": " To hear the options again, say 'repeat'. If you are done, say 'goodbye'. "
+            },
+            "SessionEndedRequest": {
+                "speechList": [
+                    "Thank you. Hope to see you again soon.",
+                    "Goodbye. Thanks for using this sample template.",
+                    "See you later."
+                ],
+                "displayHint": "",
+                "displayTitle": "Goodbye"
+            },
+            "Unhandled": {
+                "speech": "Not sure what you said.",
+                "prompt": "Can you please repeat or ask something else?",
+                "reprompt": "For a list of options, say 'help'. To end, say: goodbye."
+            }
+        }
+    }
+}

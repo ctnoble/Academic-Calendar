@@ -1,0 +1,19 @@
+{
+  "name": "tests",
+  "version": "1.0.0",
+  "description": "Skill tests",
+  "scripts": {
+    "test": "mocha ./**/*.spec.js --reporter spec",
+    "test:unit": "mocha ./unit/**/*.spec.js --reporter spec",
+    "test:e2e": "mocha ./e2e/**/*.spec.js --reporter spec"
+  },
+  "author": "VoiceXP",
+  "license": "ISC",
+  "devDependencies": {
+    "alexa-sdk": "^1.0.25",
+    "chai": "^4.1.2",
+    "chai-like": "^1.1.1",
+    "mocha": "^5.0.2",
+    "virtual-alexa": "^0.5.1"
+  }
+}

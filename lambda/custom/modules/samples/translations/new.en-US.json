@@ -1,0 +1,16 @@
+{
+    "en-US": {
+        "translation": {
+            "SpeechIntent": {
+                "speech": "speech",
+                "prompt": "hint. prompt?",
+                "reprompt": "For a list of options, say 'help'. To end, say: goodbye."
+            },
+            "SpeechWithParamIntent": {
+                "speech": "my name is {{name}}",
+                "prompt": "hint. prompt?",
+                "reprompt": "For a list of options, say 'help'. To end, say: goodbye."
+            }
+        }
+    }
+}

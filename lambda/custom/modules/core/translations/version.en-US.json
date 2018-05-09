@@ -1,0 +1,11 @@
+{
+    "en-US": {
+        "translation": {
+            "VersionIntent": {
+                "speech": "The skill version is {{version}} {{env}}.",
+                "prompt": "What do you want me to do now?",
+                "reprompt": "For a list of options, say 'help'. To end, say: goodbye."
+            }
+        }
+    }
+}

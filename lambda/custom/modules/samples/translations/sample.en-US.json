@@ -1,0 +1,11 @@
+{
+    "en-US": {
+        "translation": {
+            "SampleNoDisplayIntent": {
+                "speech": "This is a sample intent with no display.",
+                "prompt": "What next?",
+                "reprompt": "For a list of options, say 'help'. To end, say: goodbye."
+            }
+        }
+    }
+}

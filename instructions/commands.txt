@@ -1,0 +1,47 @@
+In the scripts below, replace the following values:
+  {bucket-name} - name of the bucket to store skill assets
+  {aws-profile-name} - the AWS profile name found in the credentials file of the .aws folder
+  {skill-id} - the id of the skill after it is deployed for the first time
+
+
+
+AWS CLI
+
+The location of the .aws folder:
+Linux, OS X, or Unix -  ~/.aws
+Windows - %UserProfile%\.aws
+
+# make bucket
+aws s3 mb s3://{bucket-name}/ --profile {aws-profile-name}
+
+# set CORS
+aws s3api put-bucket-cors --bucket {bucket-name} --cors-configuration file://.deploy-s3/s3-cors.json --profile {aws-profile-name}
+
+
+# sync s3
+aws s3 sync ./.deploy-s3 s3://{bucket-name}/ --profile {aws-profile-name} --grants read=uri=http://acs.amazonaws.com/groups/global/AllUsers
+
+
+
+
+
+ASK CLI
+
+# get latest model
+ask api get-model -s {skill-id} -l en-US > ./models/downloaded-model.json
+
+# get latest skill
+ask api get-skill -s {skill-id} > downloaded-skill.json
+
+The location of the .ask folder:
+Linux, OS X, or Unix -  ~/.ask
+Windows - %UserProfile%\.ask
+
+
+
+
+JSON to HTML converter
+
+1) cd into lambda/custom
+2) type "npm run converter"
+3) a new 'intents.html' file will be created in the lambda/custom directory

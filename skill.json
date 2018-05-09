@@ -1,0 +1,45 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "ASU Academic Calendar",
+          "examplePhrases": [
+            "Alexa open Academic Calendar",
+            "Alexa tell Academic Calendar to show no display sample",
+            "Alexa tell Academic Calendar to show body template 1"
+          ],
+          "name": "Academic Calendar",
+          "description": "This skill shows samples of multimodal screens.",
+          "smallIconUri": "https://s3.amazonaws.com/voicexp-skill-template-nodejs-multimodal/icons/icon108.png",
+          "largeIconUri": "https://s3.amazonaws.com/voicexp-skill-template-nodejs-multimodal/icons/icon512.png"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Sample Testing Instructions.",
+      "category": "EDUCATION_AND_REFERENCE",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/custom"
+        },
+        "interfaces": [
+          {
+            "type": "RENDER_TEMPLATE"
+          }
+        ]
+      }
+    },
+    "manifestVersion": "1.0",
+    "permissions": [],
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}
